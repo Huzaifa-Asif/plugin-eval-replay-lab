@@ -79,7 +79,7 @@ It does not judge whether a final answer was good. It does not verify the identi
 
 Version 0.1.0 includes the browser app, CLI, portable audit skill, passing and failing synthetic examples, bounded schema checks, follow-up and confirmation checks, privacy/security guidance, threat model, CI, release checklist, contribution templates, and automated tests across supported Node.js versions.
 
-Repository and live-demo links will be finalized only after independent review, exact-commit CI, deployment, and live-content verification. The 1672×941 cover was independently inspected at original resolution; its typography, central replay flow, safe margins, and crop are intact. This article is a launch draft and has not been posted to an editorial or social destination.
+The source is available in the [public repository](https://github.com/Huzaifa-Asif/plugin-eval-replay-lab), and the browser build runs on [personal GitHub Pages](https://huzaifa-asif.github.io/plugin-eval-replay-lab/). Release verification covered 48 automated tests, lint, deterministic build, dependency audit, Node.js 20/22/24 CI, an independent adversarial review, exact-commit deployment, and live-content checks. The 1672×941 cover was independently inspected at original resolution; its typography, central replay flow, safe margins, and crop are intact. This article is a launch draft and has not been posted to an editorial or social destination.
 
 ## The next test is still live
 
