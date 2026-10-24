@@ -1,0 +1,9 @@
+name: Feature request
+description: Propose a bounded deterministic improvement.
+body:
+  - type: textarea
+    attributes: { label: Developer problem }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: Alternatives and scope limits }
+    validations: { required: true }

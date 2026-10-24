@@ -1,0 +1,12 @@
+name: Bug report
+description: Report a reproducible defect using synthetic data.
+body:
+  - type: textarea
+    attributes: { label: Summary }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: Synthetic reproduction, description: Never include credentials, production traces, personal data, or proprietary metadata. }
+    validations: { required: true }
+  - type: input
+    attributes: { label: Version and runtime }
+    validations: { required: true }

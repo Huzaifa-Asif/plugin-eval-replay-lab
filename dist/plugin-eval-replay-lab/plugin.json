@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "plugin-eval-replay-lab",
+  "version": "0.1.0",
+  "description": "Audit sanitized recorded plugin tool-selection evaluations locally.",
+  "author": { "name": "Huzaifa Asif", "url": "https://github.com/Huzaifa-Asif" },
+  "repository": "https://github.com/Huzaifa-Asif/plugin-eval-replay-lab",
+  "license": "MIT",
+  "keywords": ["plugin", "mcp", "evaluation", "testing"]
+}

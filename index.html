@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Replay and score sanitized plugin tool-selection evaluation traces locally.">
+  <title>Plugin Eval Replay Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#workspace">Skip to audit workspace</a>
+  <main id="workspace">
+    <header>
+      <p class="eyebrow">LOCAL-FIRST RELEASE EVIDENCE</p>
+      <h1>Plugin Eval Replay Lab</h1>
+      <p class="lede">Compare expected tool behavior with sanitized recorded calls—without rerunning a model or contacting an MCP server.</p>
+    </header>
+    <section class="panel" aria-labelledby="fixture-title">
+      <div class="title-row"><h2 id="fixture-title">Evaluation fixture</h2><div class="controls"><button id="valid">Load passing example</button><button id="unsafe">Load failing example</button></div></div>
+      <label for="fixture">Catalog, expectations, and captured calls</label>
+      <textarea id="fixture" spellcheck="false" aria-describedby="privacy"></textarea>
+      <p id="privacy">Use synthetic or redacted evidence only. Never paste credentials, production records, or personal data.</p>
+      <button class="primary" id="audit">Replay audit</button>
+      <p id="status" role="status" aria-live="polite">Loading a synthetic example.</p>
+    </section>
+    <section class="panel" aria-labelledby="report-title"><h2 id="report-title">Report</h2><pre id="output" tabindex="-1">Run the audit to produce a deterministic report.</pre></section>
+    <footer>This preflight is not a live eval, security certification, or OpenAI approval.</footer>
+  </main>
+  <script type="module" src="src/app.mjs"></script>
+</body>
+</html>
